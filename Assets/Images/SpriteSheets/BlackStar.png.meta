@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 346fc15157df1734a909d49e644ef7e7
+guid: 52881ca8f98eab140a4f608e722e8683
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2868101353237766674
-    second: WhiteSquare_0
+      213: 2019951968972939414
+    second: BlackStar_0
+  - first:
+      213: 4580509660841304504
+    second: BlackStar_1
+  - first:
+      213: -4962230191928710723
+    second: BlackStar_2
+  - first:
+      213: -3049089150042245492
+    second: BlackStar_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1024
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -98,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhiteSquare_0
+      name: BlackStar_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 31
-        width: 962
-        height: 962
+        x: 0
+        y: 300
+        width: 300
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +121,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 212ed832cfa8dc720800000000000000
-      internalID: 2868101353237766674
+      spriteID: 690abf51d9f480c10800000000000000
+      internalID: 2019951968972939414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackStar_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1e0b8944d319f30800000000000000
+      internalID: 4580509660841304504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackStar_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9ee547eed922bb0800000000000000
+      internalID: -4962230191928710723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackStar_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86fb33a2957fa5d0800000000000000
+      internalID: -3049089150042245492
       vertices: []
       indices: 
       edges: []
@@ -121,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 53f7278c1ceff774694144750bec9b01
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WhiteSquare_0: 2868101353237766674
+      BlackStar_0: 2019951968972939414
+      BlackStar_1: 4580509660841304504
+      BlackStar_2: -4962230191928710723
+      BlackStar_3: -3049089150042245492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
