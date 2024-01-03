@@ -16,12 +16,18 @@ public class CollectStar : MonoBehaviour
         {
             if (collision.gameObject.layer == whiteLayer && isWhite)
             {
-                Destroy(gameObject);
+                Collect();
             }
             else if (collision.gameObject.layer == blackLayer && !isWhite)
             {
-                Destroy(gameObject);
+                Collect();
             }
         }
+    }
+
+    private void Collect()
+    {
+        GameObject.FindAnyObjectByType<LevelLoader>().starsCollected += 1;
+        Destroy(gameObject);
     }
 }
