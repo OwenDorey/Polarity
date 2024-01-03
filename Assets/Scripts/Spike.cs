@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 public class Spike : MonoBehaviour
 {
-    Rigidbody2D rb;
+    private Rigidbody2D rb;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -16,7 +18,6 @@ public class Spike : MonoBehaviour
 
             rb = collision.gameObject.GetComponent<Rigidbody2D>();
             rb.constraints = RigidbodyConstraints2D.FreezePosition;
-
         }
     }
 }
