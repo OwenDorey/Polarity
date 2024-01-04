@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public bool blackFlipped;
 
     private float horizontalBlack;
-    private bool blackFacingRight;
+    public bool blackFacingRight;
 
 
     public Transform whiteSquare;
@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public bool whiteFlipped;
 
     private float horizontalWhite;
-    private bool whiteFacingRight;
+    public bool whiteFacingRight;
 
 
     public LayerMask groundLayer;

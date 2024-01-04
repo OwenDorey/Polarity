@@ -10,28 +10,19 @@ public class LevelLoader : MonoBehaviour
     public float transitionTime = 1f;
     public int starsCollected = 0;
 
-    private SpriteRenderer blackSquare;
-    private SpriteRenderer whiteSquare;
-
     private void Awake()
     {
         fade.SetActive(true);
     }
-    private void Start()
-    {
-        blackSquare = GameObject.Find("BlackSquare").GetComponent<SpriteRenderer>();
-        whiteSquare = GameObject.Find("WhiteSquare").GetComponent<SpriteRenderer>();
-    }
+
     private void Update()
     {
         if (starsCollected == 2)
         {
+            Destroy(GameObject.Find("BlackStar"));
+            Destroy(GameObject.Find("WhiteStar"));
             starsCollected = 0;
             LoadNextLevel();
-        }
-        if (blackSquare == null && whiteSquare == null)
-        {
-            ReloadLevel();
         }
     }
 

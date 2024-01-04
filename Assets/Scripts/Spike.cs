@@ -7,6 +7,12 @@ using UnityEngine.Rendering.Universal;
 public class Spike : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private LevelLoader levelLoader;
+
+    private void Start()
+    {
+        levelLoader = GameObject.Find("LevelLoader").GetComponent<LevelLoader>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,6 +24,8 @@ public class Spike : MonoBehaviour
 
             rb = collision.gameObject.GetComponent<Rigidbody2D>();
             rb.constraints = RigidbodyConstraints2D.FreezePosition;
+
+            levelLoader.ReloadLevel();
         }
     }
 }
