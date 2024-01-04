@@ -40,6 +40,7 @@ public class GravitySwitcher : MonoBehaviour
             }
 
             rb.gravityScale *= -1f;
+            FindAnyObjectByType<AudioManager>().OnFlip();
         }
     }
 }

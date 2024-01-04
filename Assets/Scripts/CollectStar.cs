@@ -43,6 +43,7 @@ public class CollectStar : MonoBehaviour
 
     private void Collect()
     {
+        FindAnyObjectByType<AudioManager>().OnWin();
         GameObject.FindAnyObjectByType<LevelLoader>().starsCollected += 1;
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         gameObject.GetComponentInChildren<Light2D>().enabled = false;
@@ -50,6 +51,7 @@ public class CollectStar : MonoBehaviour
 
     private void Remove()
     {
+        FindAnyObjectByType<AudioManager>().OnWin();
         GameObject.FindAnyObjectByType<LevelLoader>().starsCollected -= 1;
         gameObject.GetComponent<SpriteRenderer>().enabled = true;
         gameObject.GetComponentInChildren<Light2D>().enabled = true;

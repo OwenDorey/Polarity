@@ -74,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
             rbBlack.gravityScale *= -1f;
             rbWhite.gravityScale *= -1f;
             Rotation();
+            FindAnyObjectByType<AudioManager>().OnFlip();
         }
     }
 

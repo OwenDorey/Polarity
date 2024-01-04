@@ -19,9 +19,10 @@ public class LevelLoader : MonoBehaviour
     {
         if (starsCollected == 2)
         {
+            FindAnyObjectByType<AudioManager>().OnWin();
+
             Destroy(GameObject.Find("BlackStar"));
             Destroy(GameObject.Find("WhiteStar"));
-            starsCollected = 0;
             LoadNextLevel();
         }
     }
