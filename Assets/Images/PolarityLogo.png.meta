@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: 707c54aa6081b9949abe755d3e9529a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1634114720327301243
+    second: PolarityLogo_0
+  - first:
+      213: 5128183904618360974
+    second: PolarityLogo_1
+  - first:
+      213: 2798912941826166136
+    second: PolarityLogo_2
+  - first:
+      213: -4616819827349723804
+    second: PolarityLogo_3
+  - first:
+      213: -734483145260029352
+    second: PolarityLogo_4
+  - first:
+      213: 1580586471515239466
+    second: PolarityLogo_5
+  - first:
+      213: 6695092474215474579
+    second: PolarityLogo_6
+  - first:
+      213: -5687231045292285729
+    second: PolarityLogo_7
+  - first:
+      213: -5712239503816311880
+    second: PolarityLogo_8
+  - first:
+      213: -1412437658938162271
+    second: PolarityLogo_9
+  - first:
+      213: -8193709660473346011
+    second: PolarityLogo_10
+  - first:
+      213: 2607451030119301122
+    second: PolarityLogo_11
+  - first:
+      213: -6475091458005382390
+    second: PolarityLogo_12
+  - first:
+      213: 1406182572820263085
+    second: PolarityLogo_13
+  - first:
+      213: -2549137333777034143
+    second: PolarityLogo_14
+  - first:
+      213: 7032830298399067878
+    second: PolarityLogo_15
+  - first:
+      213: -5116366366103319931
+    second: PolarityLogo_16
+  - first:
+      213: 6807430888971370843
+    second: PolarityLogo_17
+  - first:
+      213: 5854499771453445573
+    second: PolarityLogo_18
+  - first:
+      213: -7549647209871898958
+    second: PolarityLogo_19
+  - first:
+      213: 5103368723305607814
+    second: PolarityLogo_20
+  - first:
+      213: -3525361413669502099
+    second: PolarityLogo_21
+  - first:
+      213: -8313196003888948313
+    second: PolarityLogo_22
+  - first:
+      213: 8631142364044799105
+    second: PolarityLogo_23
+  - first:
+      213: 2393742078012627893
+    second: PolarityLogo_24
+  - first:
+      213: 7958691385079515098
+    second: PolarityLogo_25
+  - first:
+      213: -2071130549218827372
+    second: PolarityLogo_26
+  - first:
+      213: 9096653423692114593
+    second: PolarityLogo_27
+  - first:
+      213: 246669430584083574
+    second: PolarityLogo_28
+  - first:
+      213: -8509869744696023682
+    second: PolarityLogo_29
+  - first:
+      213: -3512551782210914906
+    second: PolarityLogo_30
+  - first:
+      213: 1583330324132850070
+    second: PolarityLogo_31
+  - first:
+      213: -5342613868207281369
+    second: PolarityLogo_32
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PolarityLogo_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 354
+        width: 237
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7878532eaa8da610800000000000000
+      internalID: 1634114720327301243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_1
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 353
+        width: 149
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8037a94718fa2740800000000000000
+      internalID: 5128183904618360974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_2
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 628
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dcac6cd7cb7d620800000000000000
+      internalID: 2798912941826166136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_3
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 350
+        width: 239
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465e6d6f3d2cdefb0800000000000000
+      internalID: -4616819827349723804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 616
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85aa34988779ec5f0800000000000000
+      internalID: -734483145260029352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 579
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a243473850f5fe510800000000000000
+      internalID: 1580586471515239466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 353
+        width: 238
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3952108122fb9ec50800000000000000
+      internalID: 6695092474215474579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 353
+        width: 226
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0a7cd1f75e211b0800000000000000
+      internalID: -5687231045292285729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_8
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 351
+        width: 236
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb331f9f6c0ab0b0800000000000000
+      internalID: -5712239503816311880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_9
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 576
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a34b9fbe63066ce0800000000000000
+      internalID: -1412437658938162271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_10
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 353
+        width: 148
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528bcc6d9781a4e80800000000000000
+      internalID: -8193709660473346011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_11
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 310
+        width: 238
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200cc73a5e68f2420800000000000000
+      internalID: 2607451030119301122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_12
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 555
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b4c6d10aad326a0800000000000000
+      internalID: -6475091458005382390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_13
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 553
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0fb468993c38310800000000000000
+      internalID: 1406182572820263085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_14
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 537
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1649880d915af9cd0800000000000000
+      internalID: -2549137333777034143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_15
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 501
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee4ea515e1a99160800000000000000
+      internalID: 7032830298399067878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_16
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 518
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ac7afc5e30ff8b0800000000000000
+      internalID: -5116366366103319931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_17
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 517
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b510922835ad87e50800000000000000
+      internalID: 6807430888971370843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_18
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 481
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5961f068c5f3150800000000000000
+      internalID: 5854499771453445573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_19
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 479
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b60114ccd34a3790800000000000000
+      internalID: -7549647209871898958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_20
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 464
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6823876a0dec2d640800000000000000
+      internalID: 5103368723305607814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_21
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 447
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d634c51f876631fc0800000000000000
+      internalID: -3525361413669502099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_22
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 445
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab9008974891ac80800000000000000
+      internalID: -8313196003888948313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_23
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 443
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c27b6104af7c770800000000000000
+      internalID: 8631142364044799105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_24
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 427
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb19d3ccb7483120800000000000000
+      internalID: 2393742078012627893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_25
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 412
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad740a4d5a3f27e60800000000000000
+      internalID: 7958691385079515098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_26
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 406
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4932a522dbdd143e0800000000000000
+      internalID: -2071130549218827372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_27
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 406
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa620cb71ecd3e70800000000000000
+      internalID: 9096653423692114593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_28
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 391
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67489ea4a885c6300800000000000000
+      internalID: 246669430584083574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_29
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 392
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75ac8eed8ed6e980800000000000000
+      internalID: -8509869744696023682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_30
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 372
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5372ea3c8e04fc0800000000000000
+      internalID: -3512551782210914906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_31
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 372
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699ea0c7a8e19f510800000000000000
+      internalID: 1583330324132850070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PolarityLogo_32
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 371
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bed654ef83bd5b0800000000000000
+      internalID: -5342613868207281369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PolarityLogo_0: 1634114720327301243
+      PolarityLogo_1: 5128183904618360974
+      PolarityLogo_10: -8193709660473346011
+      PolarityLogo_11: 2607451030119301122
+      PolarityLogo_12: -6475091458005382390
+      PolarityLogo_13: 1406182572820263085
+      PolarityLogo_14: -2549137333777034143
+      PolarityLogo_15: 7032830298399067878
+      PolarityLogo_16: -5116366366103319931
+      PolarityLogo_17: 6807430888971370843
+      PolarityLogo_18: 5854499771453445573
+      PolarityLogo_19: -7549647209871898958
+      PolarityLogo_2: 2798912941826166136
+      PolarityLogo_20: 5103368723305607814
+      PolarityLogo_21: -3525361413669502099
+      PolarityLogo_22: -8313196003888948313
+      PolarityLogo_23: 8631142364044799105
+      PolarityLogo_24: 2393742078012627893
+      PolarityLogo_25: 7958691385079515098
+      PolarityLogo_26: -2071130549218827372
+      PolarityLogo_27: 9096653423692114593
+      PolarityLogo_28: 246669430584083574
+      PolarityLogo_29: -8509869744696023682
+      PolarityLogo_3: -4616819827349723804
+      PolarityLogo_30: -3512551782210914906
+      PolarityLogo_31: 1583330324132850070
+      PolarityLogo_32: -5342613868207281369
+      PolarityLogo_4: -734483145260029352
+      PolarityLogo_5: 1580586471515239466
+      PolarityLogo_6: 6695092474215474579
+      PolarityLogo_7: -5687231045292285729
+      PolarityLogo_8: -5712239503816311880
+      PolarityLogo_9: -1412437658938162271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

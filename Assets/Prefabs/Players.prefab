@@ -636,7 +636,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.3
+      scalar: 0.15
       minScalar: 0.05
       maxCurve:
         serializedVersion: 2
@@ -5600,7 +5600,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.3
+      scalar: 0.15
       minScalar: 0.05
       maxCurve:
         serializedVersion: 2
@@ -10178,10 +10178,12 @@ MonoBehaviour:
   rbBlack: {fileID: 564103340288197287}
   groundCheckBlack: {fileID: 5306569391087951731}
   blackFlipped: 0
+  blackFacingRight: 0
   whiteSquare: {fileID: 6971643953968757166}
   rbWhite: {fileID: 6332047662942597969}
   groundCheckWhite: {fileID: 1517893504145621950}
   whiteFlipped: 1
+  whiteFacingRight: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
