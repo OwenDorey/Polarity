@@ -9,6 +9,7 @@ public class LevelLoader : MonoBehaviour
     public Animator animator;
     public float transitionTime = 1f;
     public int starsCollected = 0;
+    public bool hasWon = false;
 
     private void Awake()
     {
@@ -19,6 +20,7 @@ public class LevelLoader : MonoBehaviour
     {
         if (starsCollected == 2)
         {
+            hasWon = true;
             FindAnyObjectByType<AudioManager>().OnWin();
 
             Destroy(GameObject.Find("BlackStar"));
@@ -35,6 +37,11 @@ public class LevelLoader : MonoBehaviour
     public void LoadNextLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    public void SelectLevel(int levelIndex)
+    {
+        StartCoroutine(LoadLevel(levelIndex));
     }
 
     IEnumerator LoadLevel(int levelIndex)

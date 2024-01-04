@@ -16,8 +16,7 @@ public class Spike : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        int starsCollected = FindAnyObjectByType<LevelLoader>().starsCollected;
-        if (collision.gameObject.tag == "Player" && starsCollected < 2)
+        if (collision.gameObject.tag == "Player" && !levelLoader.hasWon)
         {
             FindAnyObjectByType<AudioManager>().OnDeath();
 
