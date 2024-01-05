@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             rbBlack.gravityScale *= -1f;
             blackFacingRight = !blackFacingRight;
         }
-        else if (whiteFlipped)
+        if (whiteFlipped)
         {
             rbWhite.gravityScale *= -1f;
             whiteFacingRight = !whiteFacingRight;

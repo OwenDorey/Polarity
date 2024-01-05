@@ -36,7 +36,15 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        int currentLevel = SceneManager.GetActiveScene().buildIndex;
+        if (currentLevel == 10)
+        {
+            StartCoroutine(LoadLevel(0));
+        }
+        else
+        {
+            StartCoroutine(LoadLevel(currentLevel + 1));
+        }   
     }
 
     public void SelectLevel(int levelIndex)
