@@ -47,6 +47,11 @@ public class LevelLoader : MonoBehaviour
         }   
     }
 
+    public void LoadMenu()
+    {
+        StartCoroutine(LoadLevel(0));
+    }
+
     public void SelectLevel(int levelIndex)
     {
         StartCoroutine(LoadLevel(levelIndex));

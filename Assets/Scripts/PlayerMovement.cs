@@ -140,6 +140,14 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void Menu(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            GameObject.FindAnyObjectByType<LevelLoader>().LoadMenu();
+        }
+    }
+
     private bool IsBlackGrounded()
     {
         return Physics2D.OverlapCircle(groundCheckBlack.position, 0.2f, groundLayer);
