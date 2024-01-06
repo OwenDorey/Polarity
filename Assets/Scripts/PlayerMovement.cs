@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // Black Square
+
     public Transform blackSquare;
     public Rigidbody2D rbBlack;
     public Transform groundCheckBlack;
@@ -13,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalBlack;
     public bool blackFacingRight;
 
+    // White Square
 
     public Transform whiteSquare;
     public Rigidbody2D rbWhite;
@@ -22,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalWhite;
     public bool whiteFacingRight;
 
+    // Other
 
     public LayerMask groundLayer;
     public float speed = 8f;
@@ -67,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // Swap gravity and rotate player
     public void SwitchGravity(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -132,6 +137,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // Restart level
     public void Restart(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -140,6 +146,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // Returns to menu scene
     public void Menu(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -148,6 +155,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // Checks if players on ground
     private bool IsBlackGrounded()
     {
         return Physics2D.OverlapCircle(groundCheckBlack.position, 0.2f, groundLayer);
@@ -157,15 +165,14 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheckWhite.position, 0.2f, groundLayer);
     }
 
+    // Flips players look direction
     private void FlipBlack()
     {
         blackFacingRight = !blackFacingRight;
         Vector3 blackLocalScale = blackSquare.localScale;
         blackLocalScale.x *= -1f;
-        blackSquare.localScale = blackLocalScale;
-        
+        blackSquare.localScale = blackLocalScale;  
     }
-
     private void FlipWhite()
     {
         whiteFacingRight = !whiteFacingRight;

@@ -7,6 +7,7 @@ public class DoNotDestroy : MonoBehaviour
 {
     private void Awake()
     {
+        // Keep music between levels
         GameObject[] musicObj = GameObject.FindGameObjectsWithTag("Music");
         if (musicObj.Length > 1)
         {
@@ -17,6 +18,7 @@ public class DoNotDestroy : MonoBehaviour
 
     private void Update()
     {
+        // Stops level music if returning to menu
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             Destroy(this.gameObject);

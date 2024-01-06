@@ -8,6 +8,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource coinCollect;
     public AudioSource woosh;
 
+    // Sound effects
     public void OnDeath()
     {
         deathSound.Play();

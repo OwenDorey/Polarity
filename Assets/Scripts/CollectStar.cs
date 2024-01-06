@@ -11,6 +11,7 @@ public class CollectStar : MonoBehaviour
     private int blackLayer = 6;
     private int whiteLayer = 7;
 
+    // Checks if correct player is touching correct star
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -25,7 +26,6 @@ public class CollectStar : MonoBehaviour
             }
         }
     }
-
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -41,6 +41,7 @@ public class CollectStar : MonoBehaviour
         }
     }
 
+    // Collect star
     private void Collect()
     {
         FindAnyObjectByType<AudioManager>().OnWin();
@@ -48,7 +49,7 @@ public class CollectStar : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         gameObject.GetComponentInChildren<Light2D>().enabled = false;
     }
-
+    // Remove star
     private void Remove()
     {
         FindAnyObjectByType<AudioManager>().OnWin();
